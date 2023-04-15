@@ -5,9 +5,16 @@ import LiIcon from "./LiIcon";
 const Details = ({ position, company, companyLink, time, address, work }) => {
   const ref = useRef(null);
   return (
-    <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%] ">
-      <LiIcon reference={ref}/>
-      <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:0.5, type:"spring"}}>
+    <li
+      ref={ref}
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%] "
+    >
+      <LiIcon reference={ref} />
+      <motion.div
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
+      >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}&nbsp;
           <a
@@ -45,37 +52,27 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position={"Software Engineer @Google"}
-            time="2022-Present"
-            company={"Google"}
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
-          />
-          <Details
-            position={"Intern @Facebook"}
+            position={"Frelance"}
             address={"Menlo Park, CA."}
-            time="Summer 2021"
-            company={"Facebook"}
+            time="2020-2021"
+            company={"Las Delicias de Ramon y Ramona"}
             work={
-              "Worked on a team responsible for developing a new mobile app feature that allowed users to create and share short-form video content, including designing and implementing a new user interface and developing the backend infrastructure to support the feature."
+              "I worked on a sales and inventory system for a restaurant, which used technologies such as MongoDB, Rectjs and SASS"
             }
           />
           <Details
-            position={"Software Engineer @Google"}
+            position={"Freelance"}
             time="2022-Present"
-            company={"Google"}
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            company={"LitoGrafia Grafolito"}
+            address="Bogota, Colombia"
+            work="
+            working on different types of applications for the company, such as the website and inventory systems"
           />
           <Details
-            position={"Software Engineer @Google"}
+            position={"Freelance"}
             time="2022-Present"
-            company={"Google"}
-            address="Mountain View, CA"
+            company={"Zündada"}
+            address="Bogota, Colombia"
             work="Worked on a team responsible for developing new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."

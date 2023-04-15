@@ -59,7 +59,7 @@ const about = () => {
                 Biography{" "}
               </h2>
               <p className="font-medium">
-                Hi, I'm Diego Rojas, a fullstack and mobile developer with a
+                Hi, I'm Diego Rojas, a Fullstack and Mobile Developer with a
                 passion for creating beautiful, functional, and user-centered
                 digital experiences. With +3 years of experience Programing. I
                 am always looking for new and innovative ways to bring my

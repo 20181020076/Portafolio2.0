@@ -8,6 +8,7 @@ import {
   LinkedInIcon,
   PinterestIcon,
   DribbbleIcon,
+  WhatsAppIcon,
   SunIcon,
   MoonIcon,
 } from "./Icons";
@@ -133,13 +134,13 @@ const NavBar = () => {
             <PinterestIcon />
           </motion.a>
           <motion.a
-            href="http://twitter.com"
+            href="https://wa.me/573165315484"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 ml-3"
           >
-            <DribbbleIcon />
+            <WhatsAppIcon />
           </motion.a>
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}

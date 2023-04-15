@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 
-const Details = ({ type, place, time, info}) => {
+const Details = ({ type, place, time, info }) => {
   const ref = useRef(null);
   return (
     <li
@@ -45,27 +45,42 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type={"Bachelor Of Science In Computer Science"}
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
+            type={"Primary and High School"}
+            time="2005 -2017"
+            place="Liceo de Cervantes Norte, Bogotá Colombia"
+            info="I studied in this institution where I not only learned everything necessary but also strong skills in mathematics, physics and programming."
+          />
+          <Details
+            type={"Systems Engineer"}
+            time="2018-2020"
+            place="Universidad Francico José de Caldas"
+            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and POO."
+          />
+          <Details
+            type={"Systems Engineer"}
+            time="2020-current"
+            place="Universidad Nacional de Colombia"
+            info="Relevant courses where i learn more about Computer Systems Engineering, Data Structures and Algorithms, Desing Patterns, Artificial 
             Intelligence."
           />
           <Details
-            type={"Bachelor Of Science In Computer Science"}
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            type={"Machine Learning and Data Science"}
+            time="2021"
+            place="Universidad Nacional de Colombia"
+            info="Relevant courses included Data Analitycs, Python, Machine Learning, Artificial Intelligence and Big Data."
           />
           <Details
-            type={"Bachelor Of Science In Computer Science"}
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            type={"FullStack Developer"}
+            time="2022-current"
+            place="CoderHouse"
+            info="I get new knowleges included Web Development, JavaScript, ReactJS, MySQL, MongoDB, NodeJS, Express, Nest, GraphQL, Desing Patterns, and other technologies."
           />
-          
+          <Details
+            type={"Mobile Developer"}
+            time="2022-2023"
+            place="CoderHouse"
+            info="I deepened the knowledge that I had in ReactJS, and I learned to develop hybrid native applications in React Native."
+          />
         </ul>
       </div>
     </div>

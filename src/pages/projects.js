@@ -5,6 +5,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
+import easyBank from "../../public/images/projects/easy-bank.jpg";
+import timeTraking from "../../public/images/projects/time-traking.jpg";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -135,9 +137,9 @@ local currency."
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link={"/"}
-                type={"Featured Project"}
-                img={project1}
+                link={"https://dainty-malabi-829e84.netlify.app"}
+                type={"Easy Bank"}
+                img={easyBank}
                 github="/"
               />
             </div>
@@ -147,9 +149,9 @@ local currency."
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link={"/"}
+                link={"https://heartfelt-hummingbird-c6dfad.netlify.app"}
                 type={"Featured Project"}
-                img={project1}
+                img={timeTraking}
                 github="/"
               />
             </div>
@@ -183,7 +185,7 @@ local currency."
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link={"/"}
+                link={"https://gorgeous-tanuki-cc3d95.netlify.app"}
                 type={"Featured Project"}
                 img={project1}
                 github="/"
