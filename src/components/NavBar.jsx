@@ -11,6 +11,7 @@ import {
   WhatsAppIcon,
   SunIcon,
   MoonIcon,
+  InstagramIcon
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -107,7 +108,7 @@ const NavBar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="http://twitter.com"
+            href="https://github.com/20181020076"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -116,7 +117,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="http://twitter.com"
+            href="https://www.linkedin.com/in/diego-rojas-177150168/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -125,13 +126,13 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="http://twitter.com"
+            href="https://www.instagram.com/rojas_diegoalejandro/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3 bg-light rounded-full"
           >
-            <PinterestIcon />
+            <InstagramIcon />
           </motion.a>
           <motion.a
             href="https://wa.me/573165315484"
@@ -198,7 +199,7 @@ const NavBar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="http://twitter.com"
+              href="https://github.com/20181020076"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -207,7 +208,7 @@ const NavBar = () => {
               <GithubIcon className="dark:text-dark" />
             </motion.a>
             <motion.a
-              href="http://twitter.com"
+              href="https://www.linkedin.com/in/diego-rojas-177150168/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -216,13 +217,13 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="http://twitter.com"
+              href="https://www.instagram.com/rojas_diegoalejandro/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 bg-light rounded-full sm:mx-1"
             >
-              <PinterestIcon />
+              <InstagramIcon />
             </motion.a>
             <motion.a
               href="https://wa.me/573165315484"
