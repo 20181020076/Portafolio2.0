@@ -51,10 +51,17 @@ const Experience = () => {
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+        <Details
+            position={"Freelance"}
+            time="2020-2021"
+            company={"Kubicando"}
+            address="Bogota, Colombia"
+            work="I worked on several construction company project websites and simple inventory"
+          />
           <Details
             position={"Frelance"}
-            address={"Menlo Park, CA."}
-            time="2020-2021"
+            address={"Bogota, Colombia"}
+            time="2021-2021"
             company={"Las Delicias de Ramon y Ramona"}
             work={
               "I worked on a sales and inventory system for a restaurant, which used technologies such as MongoDB, Rectjs and SASS"
@@ -73,9 +80,7 @@ const Experience = () => {
             time="2022-Present"
             company={"Zündada"}
             address="Bogota, Colombia"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            work="currently working on a personal ticket sales project, working as a technology leader for the company"
           />
         </ul>
       </div>
