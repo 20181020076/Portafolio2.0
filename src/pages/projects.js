@@ -8,7 +8,7 @@ import { GithubIcon } from "@/components/Icons";
 import easyBank from "../../public/images/projects/easy-bank.jpg";
 import timeTraking from "../../public/images/projects/time-traking.jpg";
 import mustang from "../../public/images/projects/mustang.jpeg";
-import johnDeere from "../../public/images/projects/johnDeere.png";
+import johnDeere from "../../public/images/projects/johndeere.png";
 import claro from "../../public/images/projects/claro.jpeg";
 import splitter from "../../public/images/projects/splitter.jpeg";
 import cube from "../../public/images/projects/cube.png";
