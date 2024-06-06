@@ -11,6 +11,14 @@ import mustang from "../../public/images/projects/mustang.jpeg";
 import johnDeere from "../../public/images/projects/johnDeere.png";
 import claro from "../../public/images/projects/claro.jpeg";
 import splitter from "../../public/images/projects/splitter.jpeg";
+import cube from "../../public/images/projects/cube.png";
+import cocacola from "../../public/images/projects/cocacola.png";
+import menu3d from "../../public/images/projects/menu3d.png";
+import parallax from "../../public/images/projects/parallax.png";
+
+
+
+
 
 
 
@@ -137,6 +145,57 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
+                title={"Cube Effect"}
+                summary="Cube effect, hover to see it :)."
+                link={"https://cube-hover3d-imzbfm5bf-20181020076.vercel.app/"}
+                type={"Cube Effect"}
+                img={cube}
+                github="/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title={"Coca-cola effect"}
+                summary="Cocacola effect hover to see it :)."
+                link={"https://cocacola-r467ezji8-20181020076.vercel.app/"}
+                type={"Featured Project"}
+                img={cocacola}
+                github="/"
+              />
+            </div>
+           
+            <div className="col-span-12 sm:col-span-12">
+              <FeaturedProject
+                title={"John deere Mobile Application"}
+                summary="Power calculator for choosing a tractor according to several factors and comparison of tractors, this application is still in progress."
+                link={"https://admirable-salamander-7eab55.netlify.app/"}
+                type={"Featured Project"}
+                img={johnDeere}
+                github="/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title={"Menu 3D"}
+                summary="Hover to see it."
+                link={"https://menu3d-88h9ilr0s-20181020076.vercel.app/"}
+                type={"menu 3d"}
+                img={menu3d}
+                github="/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title={"Parallax effect"}
+                summary="A PArallax effect scroll to see it."
+                link={"https://paralax-c95qmmgs1-20181020076.vercel.app/"}
+                type={"parallax"}
+                img={parallax}
+                github="/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
                 title={"Bank landing page Application"}
                 summary="A feature-rich Bank Screener App using React, Tailwind CSS, Context API, React Router. 
 It shows detail a simple landing page."
@@ -155,16 +214,6 @@ local currency."
                 link={"https://heartfelt-hummingbird-c6dfad.netlify.app"}
                 type={"Featured Project"}
                 img={timeTraking}
-                github="/"
-              />
-            </div>
-            <div className="col-span-12 sm:col-span-12">
-              <FeaturedProject
-                title={"John deere Mobile Application"}
-                summary="Power calculator for choosing a tractor according to several factors and comparison of tractors, this application is still in progress."
-                link={"https://admirable-salamander-7eab55.netlify.app/"}
-                type={"Featured Project"}
-                img={johnDeere}
                 github="/"
               />
             </div>
